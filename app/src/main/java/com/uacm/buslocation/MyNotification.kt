@@ -69,5 +69,6 @@ class MyNotification(private val context: Context, private val channelId: String
         const val CHANNEL_ID_NOTIFICATIONS = "channel_id_notifications"
         const val CHANNEL_GROUP_GENERAL = "channel_group_general"
         const val NOTIFICATION_ID = 1
+
     }
 }
