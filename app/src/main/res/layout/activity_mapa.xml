@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Mapa">
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="546dp"
+
+        />
+
+    <Button
+        android:id="@+id/abordar"
+        android:layout_width="wrap_content"
+        android:layout_height="29dp"
+        android:layout_below="@+id/map"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="75dp"
+        android:background="@drawable/borde_redondo"
+        android:backgroundTint="#753BBD"
+        android:drawableLeft="@drawable/parada"
+        android:drawablePadding="-19dp"
+        android:paddingLeft="11dp"
+        android:text="Abordar unidad"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btnregresar"
+        android:layout_width="wrap_content"
+        android:layout_height="7dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="334dp"
+        android:paddingLeft="2dp"
+        android:layout_marginBottom="713dp"
+        android:background="@drawable/borde_redondo"
+        android:backgroundTint="#753BBD"
+        android:drawableLeft="@drawable/flecha" />
+
+</RelativeLayout>

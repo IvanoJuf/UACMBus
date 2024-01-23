@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">BusLocation</string>
+    <string name="notification_channel_group_general">General</string>
+</resources>
