@@ -19,6 +19,7 @@ class Registro : AppCompatActivity() {
         boton = findViewById(R.id.btnRegistro)
 
         println("Esto es una linea de codigo agregada desde Ivan2")
+        println("Nuevo mensaje agregado desde ivan2")
 
         boton.setOnClickListener{
             val intent = Intent(this,Acceso::class.java)

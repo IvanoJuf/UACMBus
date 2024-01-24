@@ -115,6 +115,7 @@ class Mapa : AppCompatActivity(), OnMapReadyCallback {
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT)
 
         println("Esta linea fue agregada desde Ivan2")
+        println("Nuevo mensaje agregado desde Ivan2")
 
 
         boton = findViewById(R.id.btnregresar)
